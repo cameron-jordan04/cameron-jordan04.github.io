@@ -1,0 +1,34 @@
+# Site settings
+title: Cameron Jordan
+description: M.S. Student in EECS at the University of California, Berkeley 
+baseurl: ""  # leave empty for user/organisation pages
+url: "https://cameron-jordan04.github.io"
+
+# Author info
+author:
+  name: Cameron Jordan
+  title: M.S. Student
+  affiliation: University of California, Berkeley
+  email: cameronjordan [at] berkeley [dot] edu
+  github: cameron-jordan04
+  linkedin: cameronsjordan
+  substack: cameronsjordan
+  # google_scholar: your-scholar-id
+
+# Navigation
+nav_links:
+  - title: Home
+    url: /
+  - title: Publications
+    url: /publications/
+  # - title: CV
+  #   url: /cv/
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+theme: null
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
