@@ -35,14 +35,15 @@ title: Home
   </div>
 
   <div class="col-main">
-    <h2>About</h2>
-    <p>I am an M.S. student (expected 2027) in the Department of Electrical Engineering and Computer Science (EECS), at the University of California, Berkeley, advised by Alane Suhr in the NLP Group at the Berkeley AI Research Lab (BAIR). My research focuses on the intersection between <strong>assistance games, computational models of human behavior and cognition, and AI alignment</strong>.</p>
+    <h2>Hi!</h2>
+    <p>I am an M.S. student (expected 2027) in the Department of Electrical Engineering and Computer Science (EECS), at the University of California, Berkeley, advised by Dr. Alane Suhr in the NLP Group at the Berkeley AI Research Lab (BAIR). My research focuses on the intersection between <strong>computational models of human behavior and cognition, and theoretical AI alignment</strong> (in particular, I am interested in the assistance games formalism).</p>
     
-    <p> I previously recieved my B.S. in EECS with High Honors from UC Berkeley in 2025. As an undergraduate I was fortunate to participate in several research projects; first in the field of computational neuroscience under Albert Qu, where I researched decision making under uncertainty in rodents using recurrent neural network proxies, and later in the NLP group under Alane Suhr, where I worked on task decomposition and recursive reasoning in large language models.</p>
+    <p> I previously recieved my B.S. in EECS with High Honors from UC Berkeley in 2025. As an undergraduate I was fortunate to participate in several research projects; first in the field of computational neuroscience advised by Dr. Albert Qu, where I researched decision making under uncertainty in rodents using recurrent neural network proxies, and later in the NLP group advised by Dr. Suhr, where I worked on task decomposition and recursive reasoning in large language models.</p>
 
     <h2>News</h2>
     <ul>
       <li><strong>October 2026:</strong> I will be attending the <a href="https://longitudepolicy.org">Longitude Intensive</a> in Washington DC, as a member of the first cohort.</li>
+      <li><strong>September 2026:</strong> I will be joining <a href="https://sparai.org">SPAR</a> (Supervised Program for Alignment Research) as a mentee, working with Markov Grey and Charbel-Raphael Segerie on <i>Distilling the Technical AI Safety Literature and Co-Authoring the <a href="https://ai-safety-atlas.com">AI Safety Atlas</a></i>.</li>
       <li><strong>June 2026:</strong> I will be attending the 10th Annual <a href="https://workshop.humancompatible.ai">CHAI workshop</a> at Asilomar, and presenting preliminary work on Linguistic Assistance Games [<a href="files/Linguistic_Assistance_Games_CHAI_poster.pdf">Poster</a>].</li>
     </ul>
   </div>
