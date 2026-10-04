@@ -35,8 +35,8 @@ title: Home
   </div>
 
   <div class="col-main">
-    <h2>Hi!</h2>
-    <p>I am an M.S. student (expected 2027) in the Department of Electrical Engineering and Computer Science (EECS), at the University of California, Berkeley, advised by Dr. Alane Suhr in the NLP Group at the Berkeley AI Research Lab (BAIR). My research focuses on the intersection between <strong>computational models of human behavior and cognition, and theoretical AI alignment</strong> (in particular, I am interested in the assistance games formalism).</p>
+    <h2>Hi, I'm Cameron!</h2>
+    <p>I am an M.S. student (expected 2027) in the Department of Electrical Engineering and Computer Science (EECS), at the University of California, Berkeley. I am fortunate to be advised by Dr. Alane Suhr in the NLP Group at the Berkeley AI Research Lab (BAIR); my current research focuses on <strong>formal symbolic representations and models of language<strong>. I am generally interested in research that focuses on the intersection between <strong>computational models of human behavior and cognition, and theoretical AI alignment</strong>. I am also on the board of the <a href="https://berkeleyaisafety.com">Berkeley AI Safety Student Initiative</a>.</p>
     
     <p> I previously recieved my B.S. in EECS with High Honors from UC Berkeley in 2025. As an undergraduate I was fortunate to participate in several research projects; first in the field of computational neuroscience advised by Dr. Albert Qu, where I researched decision making under uncertainty in rodents using recurrent neural network proxies, and later in the NLP group advised by Dr. Suhr, where I worked on task decomposition and recursive reasoning in large language models.</p>
 
