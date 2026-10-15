@@ -10,7 +10,7 @@ title: Home
     <p><em>{{ site.author.title }}</em><br>
     {{ site.author.affiliation }}</p>
     <div class="contact-info">
-      <p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+      <p>{{ site.author.email }}</p>
       <div class="social-links">
         {% if site.author.github %}
             <a href="https://github.com/{{ site.author.github }}" target="_blank" aria-label="GitHub">
@@ -38,13 +38,13 @@ title: Home
     <h2>Hi, I'm Cameron!</h2>
     <p>I am an M.S. student (expected 2027) in the Department of Electrical Engineering and Computer Science (EECS), at the University of California, Berkeley. I am fortunate to be advised by Dr. Alane Suhr in the NLP Group at the Berkeley AI Research Lab (BAIR); my current research focuses on <strong>formal symbolic representations and models of language</strong>. I am generally interested in research that focuses on the intersection between <strong>computational models of human behavior and cognition, and theoretical AI alignment</strong>. I am also on the board of the <a href="https://berkeleyaisafety.com">Berkeley AI Safety Student Initiative</a>.</p>
     
-    <p> I previously recieved my B.S. in EECS with High Honors from UC Berkeley in 2025. As an undergraduate I am grateful to have participated in several research projects; first in the field of computational neuroscience advised by Dr. Albert Qu, where I researched decision making under uncertainty in rodents using recurrent mixture density networks, and later in the NLP group advised by Dr. Suhr, where I worked on task decomposition and recursive reasoning in large language models.</p>
+    <p> I recieved my B.S. in EECS with High Honors from UC Berkeley in 2025. As an undergraduate, I was fortunate to have participated in several research projects; first in the field of computational neuroscience advised by Dr. Albert Qu, where I researched decision making under uncertainty in rodents using recurrent mixture density networks, and later in the NLP group advised by Dr. Suhr, where I worked on task decomposition and recursive reasoning in large language models.</p>
 
     <h2>News</h2>
     <ul>
-      <li><strong>October 2026:</strong> I will be attending the <a href="https://longitudepolicy.org">Longitude Intensive</a> in Washington DC, as a member of the first cohort.</li>
-      <li><strong>September 2026:</strong> I will be joining <a href="https://sparai.org">SPAR</a> (Supervised Program for Alignment Research) as a mentee, working with Markov Grey and Charbel-Raphael Segerie on <i>Distilling the Technical AI Safety Literature and Co-Authoring the <a href="https://ai-safety-atlas.com">AI Safety Atlas</a></i>.</li>
-      <li><strong>June 2026:</strong> I will be attending the 10th Annual <a href="https://workshop.humancompatible.ai">CHAI workshop</a> at Asilomar, and presenting preliminary work on Linguistic Assistance Games [<a href="files/Linguistic_Assistance_Games_CHAI_poster.pdf">Poster</a>].</li>
+      <li><strong>October 2026:</strong> I attended the <a href="https://longitudepolicy.org">Longitude Intensive</a> in Washington DC, as a member of the first cohort.</li>
+      <li><strong>September 2026:</strong> I joined <a href="https://sparai.org">SPAR</a> (Supervised Program for Alignment Research) as a mentee, working with Markov Grey and Charbel-Raphael Segerie on <i>Distilling the Technical AI Safety Literature and Co-Authoring the <a href="https://ai-safety-atlas.com">AI Safety Atlas</a></i>.</li>
+      <li><strong>June 2026:</strong> I attended the 10th Annual <a href="https://workshop.humancompatible.ai">CHAI workshop</a> at Asilomar, and presented preliminary work on Linguistic Assistance Games [<a href="files/Linguistic_Assistance_Games_CHAI_poster.pdf">Poster</a>].</li>
     </ul>
   </div>
 </div>

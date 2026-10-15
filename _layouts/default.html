@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }} – {{ page.title }}</title>
+  <title>{{ site.title }} - {{ page.title }}</title>
+  <script>
+    (function () {
+      var saved = null;
+      try { saved = localStorage.getItem('theme'); } catch (e) { }
+      var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+    })();
+  </script>
+
+  <meta name="description" content="{{ site.description }}">
+
+  <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="icon" href="{{ '/favicon-32.png' | relative_url }}" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
+
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-icons-font@v16/font/simple-icons.min.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
+  <button class="theme-toggle" type="button" aria-label="Switch to dark mode"><i class="fa-solid fa-moon"></i><i
+      class="fa-solid fa-sun"></i></button>
   <header>
     <div class="container">
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false"
+        aria-controls="nav-list">&#9776;</button>
       <nav>
-        <ul>
+        <ul id="nav-list">
           {% for link in site.nav_links %}
-            <li><a href="{{ link.url | relative_url }}" {% if page.url == link.url %}class="active"{% endif %}>{{ link.title }}</a></li>
+          <li><a href="{{ link.url | relative_url }}" {% if page.url == link.url %}class="active"{% endif %}>{{ link.title }}</a></li>
           {% endfor %}
         </ul>
       </nav>
@@ -31,8 +53,31 @@
 
   <footer>
     <div class="container">
-      <p>&copy; {{ site.author.name }} - Last updated October 2026</p>
+      <p>&copy; {{ site.author.name }} - {{ site.time | date: "%B %Y" }}</p>
     </div>
   </footer>
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var themeBtn = document.querySelector('.theme-toggle');
+      function label() {
+        themeBtn.setAttribute('aria-label', root.dataset.theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+      }
+      label();
+      themeBtn.addEventListener('click', function () {
+        var next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+        root.dataset.theme = next;
+        try { localStorage.setItem('theme', next); } catch (e) { }
+        label();
+      });
+
+      var navBtn = document.querySelector('.nav-toggle');
+      var navList = document.getElementById('nav-list');
+      navBtn.addEventListener('click', function () {
+        navBtn.setAttribute('aria-expanded', navList.classList.toggle('open'));
+      });
+    })();
+  </script>
 </body>
+
 </html>
