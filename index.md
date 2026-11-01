@@ -42,8 +42,8 @@ title: Home
 
     <h2>News</h2>
     <ul>
-      <li><strong>October 2026:</strong> I attended the <a href="https://longitudepolicy.org">Longitude Intensive</a> in Washington DC, as a member of the first cohort.</li>
-      <li><strong>September 2026:</strong> I joined <a href="https://sparai.org">SPAR</a> (Supervised Program for Alignment Research) as a mentee, working with Markov Grey and Charbel-Raphael Segerie on <i>Distilling the Technical AI Safety Literature and Co-Authoring the <a href="https://ai-safety-atlas.com">AI Safety Atlas</a></i>.</li>
+      <li><strong>October 2026:</strong> I attended the <a href="https://longitudepolicy.org">Longitude Intensive</a> in Washington DC, as a member of the first cohort. You can read about what I learned at Longitude in my Substack article, <a href="https://cameronsjordan.substack.com/p/ai-policy-in-washington-dc">AI Policy in Washington DC</a>.</li>
+      <li><strong>September 2026:</strong> I joined <a href="https://sparai.org">SPAR</a> (Supervised Program for Alignment Research) as a mentee, working with Markov Grey on <i>Distilling the Technical AI Safety Literature and Co-Authoring the <a href="https://ai-safety-atlas.com">AI Safety Atlas</a></i>.</li>
       <li><strong>June 2026:</strong> I attended the 10th Annual <a href="https://workshop.humancompatible.ai">CHAI workshop</a> at Asilomar, and presented preliminary work on Linguistic Assistance Games [<a href="files/Linguistic_Assistance_Games_CHAI_poster.pdf">Poster</a>].</li>
     </ul>
   </div>

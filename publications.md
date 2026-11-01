@@ -10,6 +10,9 @@ title: Publications
 
   <ol>
     <li>
+      <b><a href="https://cameronsjordan.substack.com/p/ai-policy-in-washington-dc">AI Policy in Washington DC</a></b><i>What I learned from spending a week at the Longitude Intensive in Washington DC.</i> October, 2026.
+    </li>
+    <li>
       <b><a href="https://cameronsjordan.substack.com/p/ai-alignment-isnt-just-a-technical">AI Alignment Isn't Just A Technical Problem</a></b>. <i>The (brief) argument for broad democratic involvement in making sure AI goes well for humanity.</i> August, 2026.
     </li>
     <li>
